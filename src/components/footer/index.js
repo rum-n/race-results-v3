@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">  
             <hr/>
             <div className='copyright'>
-                © 2020 - Rumen Manev
+                <p>© 2020 - Rumen Manev <a href='https://twitter.com/room_n'>@room_n</a></p>
             </div>
         </div>
     );
