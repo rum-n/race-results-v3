@@ -1,0 +1,19 @@
+.marathonYears {
+    list-style: none;
+    font-size: 2em;
+    line-break: loose;
+    font-weight: 700;
+    
+}
+
+.marathonYears li{
+    margin: 40px auto 40px 50px;
+    cursor: pointer;
+    transition: 0.9;
+}
+
+.marathonYears li:hover{
+    /* border-bottom: 5px solid #F0958C; */
+    background-color: #6b76ff;
+    color: white;
+}

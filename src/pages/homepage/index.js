@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.css';
+import './styles.css';
 import { Link } from 'react-router-dom';
 import sofialogo from '../../img/sofia-marathon-logo.jpeg';
 import spokeslogo from '../../img/spokes2017.png';
@@ -33,7 +33,7 @@ const Home = () => {
                 />
 
                 <RaceCard 
-                    name='Ludogorets'
+                    name='Ludogorski Marathon'
                     date='Annually in July near Razlog, Bulgaria'
                     image={ludologo}
                 />

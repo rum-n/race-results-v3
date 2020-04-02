@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Chart from "chart.js";
 import Nav from './components/navbar/index';
 import Footer from './components/footer/index';
 import Home from './pages/homepage/index';
 import About from './pages/about/index';
 import SofiaMarathon from './pages/sofiaMarathon/index';
+import SofiaMarathon2016 from './pages/sofiaMarathon/sofiaMarathon2016/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
           <Route path='/sofiamarathon' component={SofiaMarathon}/>
+          <Route path='/sofiamarathon2016' component={SofiaMarathon2016}/>
         </Switch>
         <Footer />
       </div> 

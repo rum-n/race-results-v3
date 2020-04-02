@@ -1,0 +1,50 @@
+.barChart {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 30px;
+    border: 0.5px solid grey;
+    border-radius: 1%;
+}
+
+.lineChart {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    padding: 30px;
+    border: 0.5px solid grey;
+    border-radius: 1%;
+}
+
+.pieChart {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 30px;
+    border: 0.5px solid grey;
+    border-radius: 1%;
+}
+
+.heading {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: left;
+}
+
+.raceContent {
+    display: grid;
+    grid-template-rows: 25% auto;
+    grid-template-columns: auto auto auto;    
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
