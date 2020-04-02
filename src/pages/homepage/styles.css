@@ -1,10 +1,7 @@
 .heading {
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
-    text-align: left;
-    margin-left: 200px;
     margin-top: 5%;
-    width: 60%;
 }
 
 .mainContent {
@@ -12,11 +9,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 601px) {
     .heading {
-      font-size: 3em;
+      font-size: 2em;
     }
   }
   
@@ -25,7 +24,7 @@
     .heading {
       font-size: 2em;
       margin-left: 100px;
-      margin-top: 40%;
+      margin-top: 5%;
     }
   }
 

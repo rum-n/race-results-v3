@@ -3,19 +3,17 @@
     .raceCard {
         display: grid;
         box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
-        margin-bottom: 20px;
-        margin-left: 100px;
-        margin-top: 100px;
+        margin-left: 80px;
+        margin-top: 50px;
         transition: all 150ms ease-in-out;
         text-decoration: none;
         width: 350px;
         height: 350px;
+        align-content: space-around;
     }
 
     .raceDate {
         font-size: 0.8em;
-        padding: 3px;
-        margin-right: 20px;
     }
   }
   
@@ -33,9 +31,6 @@
 
     .raceDate {
         font-size: 0.8em;
-        padding: 3px;
-        margin-right: 20px;
-        margin-left: 10px;
     }
   }
 
@@ -46,22 +41,14 @@
 }
 
 .raceName {
-    padding: 3px;
-    margin-left: 20px;
     font-weight: 700;
     font-size: 1.2rem;
 }
 
 .raceImage {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    position: relative;
-    padding-left: 2em;
-    padding-right: 2em;
-    width: 70px;
-    height: 40px;
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
 }
 
 /* COLORS */
