@@ -9,10 +9,11 @@
     }
     
     .menu {
-        position: fixed;
-        top: 20px;
-        right: 50px;
+        position: static;
+        margin-top: -40px;
+        padding-right: 50px;
         font-size: 1.2em;
+        text-align: right;
     }
   }
   
@@ -33,7 +34,8 @@
   }
 
   .menu li:hover {
-    border-bottom: 5px solid #F0958C;
+    color: #F0958C;
+    opacity: 1;
 }
 
 .logo {

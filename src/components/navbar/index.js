@@ -8,7 +8,7 @@ const Nav = () => {
         <div>
             <Link to='/'>
                 <div className='logo'>
-                    <img src={logo}/>
+                    <img src={logo} alt='Logo'/>
                 </div>
             </Link>
             <ul className='menu'>

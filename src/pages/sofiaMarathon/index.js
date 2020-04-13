@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
+import raceChart from '../../img/marathoner2.svg';
 
 const linkStyle = {
     textDecoration: 'none',
@@ -11,6 +12,7 @@ const SofiaMarathon = () => {
 
     return (
         <div className='mainContent'>
+
             <ul className='marathonYears'>
                 <Link style={linkStyle} to='/sofiamarathon2016'>
                     <li>Sofia Marathon 2016</li>
@@ -20,6 +22,9 @@ const SofiaMarathon = () => {
                 <li>Sofia Marathon 2019</li>
                 <li>Sofia Marathon 2020</li>
             </ul>
+            <div className='raceHeader'>
+                <img src={raceChart} alt='Race chart'/>
+            </div>
         </div>
     );
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import './styles.css';
+import './pages.css';
 import { Link } from 'react-router-dom';
-import sofialogo from '../../img/sofia-marathon-logo.jpeg';
-import spokeslogo from '../../img/spokes2017.png';
-import ludologo from '../../img/ludogorets.jpg';
-import pirinlogo from '../../img/pirinSkyrun.png';
-import plovdivlogo from '../../img/plovdiv-marathon.jpeg';
-
-import RaceCard from '../../components/raceCard/index';
+import sofialogo from '../img/sofia-marathon-logo.jpeg';
+import spokeslogo from '../img/spokes2017.png';
+import ludologo from '../img/ludogorets.jpg';
+import pirinlogo from '../img/pirinSkyrun.png';
+import plovdivlogo from '../img/plovdiv-marathon.jpeg';
+import headerImg from '../img/marathoner.svg';
+import RaceCard from '../components/raceCard/index';
 
 const linkStyle = {
     textDecoration: 'none'
@@ -17,6 +17,12 @@ const Home = () => {
 
     return (
         <div>
+            <div className='header'>
+                <h1>Charts & stats for your favourite <br/> running events</h1>
+                <img src={headerImg} alt='Marathon runner'/>
+            </div>
+            <h1>List of races</h1>
+            <h2>Something is missing? <Link style={linkStyle} to='/add-race'>Let us know</Link> and we'll add it!</h2>
             <div className='mainContent'>
                 <Link style={linkStyle} to='/sofiamarathon'>
                     <RaceCard 

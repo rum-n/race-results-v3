@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 import { Bar, Line, Pie, Scatter } from 'react-chartjs-2';
 import results from './data.js';
 
-// const yob = results.map();
-// console.log(yob);
+// {state.map(unsub => (
+//     <UnsubscriptionsList
+//       mailId={unsub.mailId}
+//       domain={unsub.domain}
+//       key={unsub._id}
+//     />
+//   ))}
 
 const SofiaMarathon2016 = () => {
+    const state = useState(results);
+
     return (
         <div className='raceContent'>
             <h1 className='heading'>Sofia Marathon 2016</h1>
@@ -17,7 +24,6 @@ const SofiaMarathon2016 = () => {
                         datasets: [{
                             label: "My First dataset",
                             backgroundColor: '#6b76ff',
-                            // borderColor: 'rgb(255, 99, 132)',
                             data: [0, 10, 5, 2, 20, 30, 45],
                         }]
                     }}

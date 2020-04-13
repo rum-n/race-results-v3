@@ -3,7 +3,7 @@
     font-size: 2em;
     line-break: loose;
     font-weight: 700;
-    
+    margin-top: 80px;
 }
 
 .marathonYears li{
@@ -16,4 +16,9 @@
     /* border-bottom: 5px solid #F0958C; */
     background-color: #6b76ff;
     color: white;
+}
+
+.raceHeader img{
+    height: 400px;
+    padding-left: 200px;
 }
